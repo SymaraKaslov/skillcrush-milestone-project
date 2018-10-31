@@ -1,4 +1,21 @@
-#portfolio .half-width {
-	float: left;
 
+
+header .half-width{
+	float: left;
+}
+
+.column-left {
+	width: 600px;
+	float: left;
+	background-color: pink;
+}
+
+.column-right {
+	width: 600px;
+	float: left;
+	background-color: yellow;
+}
+
+.third-width {
+	float:left;
 }
