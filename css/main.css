@@ -1,1 +1,81 @@
+body {
+	width: 1200px;
+	height: 3350px;
+	border: 1px solid black;
+	margin: auto;
+	/*background-color: #1f202b;*/
 
+}
+
+
+header  {
+	height: 800px;
+}
+
+	
+header .half-width {
+	width: 598px;
+	height: 75px;
+	border: 1px solid black;
+	float: left;
+}
+
+
+header h3{
+	margin-top: 30px;
+	margin-left: -40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	/*color: #ffffff;*/
+}
+
+
+header nav ul li {
+	display: inline;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 50px;
+
+}
+
+header nav ul {
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: -40px;
+}
+
+
+header nav ul li a {
+	text-decoration: none;
+	/*color: #ffffff;*/
+}
+
+
+header #hero {
+	height: 725px;
+	border: 1px solid black;
+}
+
+header #hero h1 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600;
+	font-size: 72px;
+	margin-top: 300px;
+}
+
+
+#portfolio {
+	height: 1550px;
+}
+
+
+#about {
+	height: 550px;
+}
+
+
+
+footer {
+	height: 400px;
+}
