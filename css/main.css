@@ -71,8 +71,6 @@ header #hero #color-pop {
 
 
 
-
-
 .heading-height {
 	height: 196px;
 	border: 1px solid black;
@@ -94,13 +92,26 @@ h2 {
 #portfolio .half-width {
 	width: 598px;
 	height: 1255px;
-	border: 1px solid black;
 	float: left;
-
 }
 
 
+#portfolio .text-box {
+	height: 350px;
+	width: 550px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
 
+
+.text-box h4{
+	margin-top: 0;
+
+}
+
+.right-side {
+	margin-left: 50px;
+}
 
 
 
