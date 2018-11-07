@@ -12,7 +12,7 @@ header  {
 	height: 800px;
 }
 
-	
+
 header .half-width {
 	width: 598px;
 	height: 75px;
@@ -103,20 +103,43 @@ h2 {
 	font-size: 24px;
 }
 
+.text-box {
+	margin-bottom: 100px;
+}
+
+.image-box {
+	margin-bottom: 100px;
+}
 
 .text-box h4{
 	margin-top: 0;
 
 }
 
-.right-side {
+.text-align {
+	text-align: right;
+}
+
+.right-side-align{
 	margin-left: 50px;
 }
 
 
 
+
 #about {
 	height: 550px;
+	border: 1px solid black;
+}
+
+#about-background-img {
+	
+}
+
+#about .half-width {
+	width: 600px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
 }
 
 
