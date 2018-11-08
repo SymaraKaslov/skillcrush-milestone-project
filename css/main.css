@@ -7,6 +7,30 @@ body {
 
 }
 
+/***Base Styles***/
+
+h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36px;
+	font-weight: 600;
+	color: #fa0075;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	/*color:#ffffff;*/
+}
+
+h5, p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	/*color:#ffffff;*/
+}
+
 
 header  {
 	height: 800px;
@@ -76,13 +100,6 @@ header #hero #color-pop {
 	border: 1px solid black;
 }
 
-h2 {
-	font-family: 'Source Code Pro', monospace;
-	font-size: 36px;
-	font-weight: 600;
-	color: #fa0075;
-	text-align: center;
-}
 
 
 #portfolio {
@@ -101,6 +118,7 @@ h2 {
 	width: 550px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
+	/*color: #ffffff;*/
 }
 
 .text-box {
@@ -138,12 +156,53 @@ h2 {
 
 #about .half-width {
 	width: 600px;
+}
+
+#about h4 {	
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
+	font-weight: 700px;
+	color: #1f202b;
+}
+
+#about p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 400px;
+	color: #1f202b;
 }
 
 
 
-footer {
-	height: 400px;
+#contact {
+	height: 450px;
+	border: 1px solid black;
+}
+
+
+#contact .third-width {
+	border: 1px solid black;
+	width: 396px;
+	float: left;
+	text-align: center;
+}
+
+#contact address, a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 400px;
+	/*color: #ffffff;*/
+}
+
+#contact ul {
+	margin-right: 35px;
+}
+
+#contact ul li {
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+#contact h6 {
+	clear: both;
 }
