@@ -1,9 +1,9 @@
 body {
 	width: 1200px;
 	height: 3350px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: auto;
-	/*background-color: #1f202b;*/
+	background-color: #1f202b;
 
 }
 
@@ -21,26 +21,30 @@ h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	/*color:#ffffff;*/
+	color:#ffffff;
 }
 
 h5, p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
-	/*color:#ffffff;*/
+	color:#ffffff;
 }
 
 
+
+/***HEADER SECTION****/
+
+
 header  {
-	height: 800px;
+	height: 75px;
 }
 
 
 header .half-width {
 	width: 598px;
 	height: 75px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
 }
 
@@ -51,15 +55,14 @@ header h3{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
-	/*color: #ffffff;*/
+	color: #ffffff;
 }
 
 
 header nav ul li {
 	display: inline;
 	font-size: 30px;
-	font-family: 'Montserrat', sans-serif;
-	padding-left: 50px;
+	padding-left: 51px;
 
 }
 
@@ -67,39 +70,48 @@ header nav ul {
 	margin-top: 30px;
 	margin-left: 100px;
 	margin-right: -40px;
+	padding-left: 40px;
 }
 
 
 header nav ul li a {
 	text-decoration: none;
-	/*color: #ffffff;*/
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
 }
 
 
-header #hero {
+/****HERO SECTION******/
+ 
+
+ #hero {
 	height: 725px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
-header #hero h1 {
+ #hero h1 {
 	font-family: 'Source Code Pro', monospace;
 	font-weight: 600;
 	font-size: 72px;
 	margin-top: 300px;
-	/*color: #ffffff;*/
+	color: #ffffff;
 }
 
-header #hero #color-pop {
+ #hero #color-pop {
 	color: #fa0075;
 }
 
 
 
-.heading-height {
-	height: 196px;
-	border: 1px solid black;
-}
+/*** PORTFOLIO SECTION ***/ 
 
+
+#portfolio .heading-height {
+	height: 196px;
+	/*border: 1px solid black;*/
+}
 
 
 #portfolio {
@@ -118,7 +130,7 @@ header #hero #color-pop {
 	width: 550px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
-	/*color: #ffffff;*/
+	color: #ffffff;
 }
 
 .text-box {
@@ -144,10 +156,12 @@ header #hero #color-pop {
 
 
 
+/*** ABOUT SECTION ***/
+
 
 #about {
 	height: 550px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 #about-background-img {
@@ -162,27 +176,36 @@ header #hero #color-pop {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	font-weight: 700px;
-	color: #1f202b;
+	/*color: #1f202b;*/
+	color: #ffffff;
 }
 
 #about p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	font-weight: 400px;
-	color: #1f202b;
+	/*color: #1f202b;*/
+	color: #ffffff;
 }
 
 
+
+/*** CONTACT SECTION ***/
 
 #contact {
 	height: 450px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
+#contact h2 {
+	height: 100px;
+
+}
 
 #contact .third-width {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	width: 396px;
+	height: 200px;
 	float: left;
 	text-align: center;
 }
@@ -190,8 +213,8 @@ header #hero #color-pop {
 #contact address, a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
-	font-weight: 400px;
-	/*color: #ffffff;*/
+	font-weight: 400;
+	color: #ffffff;
 }
 
 #contact ul {
@@ -203,6 +226,19 @@ header #hero #color-pop {
 	padding: 0 20px 0 20px;
 }
 
+#contact h5, p{
+	margin: 0;
+
+
+}
+
 #contact h6 {
 	clear: both;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 60px;
+	color: #ffffff;
+
 }
