@@ -70,7 +70,7 @@ header nav ul {
 	margin-top: 30px;
 	margin-left: 100px;
 	margin-right: -40px;
-	padding-left: 40px;
+	padding-left: 45px;
 }
 
 
@@ -88,14 +88,16 @@ header nav ul li a {
 
  #hero {
 	height: 725px;
-	/*border: 1px solid black;*/
+	background-image: url("../img/hero-background.png");
+	margin: 0 -40px 0 -40px;
 }
 
  #hero h1 {
 	font-family: 'Source Code Pro', monospace;
 	font-weight: 600;
 	font-size: 72px;
-	margin-top: 300px;
+	margin: 10px 0 59px 40px;
+	padding-top: 200px;
 	color: #ffffff;
 }
 
@@ -108,15 +110,20 @@ header nav ul li a {
 /*** PORTFOLIO SECTION ***/ 
 
 
+#portfolio {
+	height: 1550px;
+}
+
 #portfolio .heading-height {
 	height: 196px;
 	/*border: 1px solid black;*/
 }
 
-
-#portfolio {
-	height: 1550px;
+#portfolio h2 {
+	margin-top: 0;
+	padding-top: 60px;
 }
+
 
 #portfolio .half-width {
 	width: 598px;
@@ -161,15 +168,14 @@ header nav ul li a {
 
 #about {
 	height: 550px;
-	/*border: 1px solid black;*/
+	margin: 0 -40px 0 -40px;
+	background-image: url("../img/about-me.png"); 
 }
 
-#about-background-img {
-	
-}
 
 #about .half-width {
 	width: 600px;
+	margin-left: 40px;
 }
 
 #about h4 {	
