@@ -1,7 +1,8 @@
+
+
 body {
 	width: 1200px;
 	height: 3350px;
-	/*border: 1px solid black;*/
 	margin: auto;
 	background-color: #1f202b;
 
@@ -15,13 +16,16 @@ h2 {
 	font-weight: 600;
 	color: #fa0075;
 	text-align: center;
+	margin-top: 0;
+	padding-top: 30px;
 }
 
-h4 {
+h4, h4 a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color:#ffffff;
+	text-decoration: none;
 }
 
 h5, p {
@@ -114,50 +118,33 @@ header nav ul li a {
 	height: 1550px;
 }
 
-#portfolio .heading-height {
-	height: 196px;
-	/*border: 1px solid black;*/
-}
-
-#portfolio h2 {
-	margin-top: 0;
-	padding-top: 60px;
-}
-
 
 #portfolio .half-width {
 	width: 598px;
 	height: 1255px;
+	margin-top: 40px;
 	float: left;
 }
 
-
-#portfolio .text-box {
+.half-width .text-box {
 	height: 350px;
 	width: 550px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	color: #ffffff;
-}
-
-.text-box {
 	margin-bottom: 100px;
 }
 
-.image-box {
-	margin-bottom: 100px;
-}
-
-.text-box h4{
+.half-width .text-box h4{
 	margin-top: 0;
 
 }
-
-.text-align {
+.text-box .text-align {
 	text-align: right;
 }
 
-.right-side-align{
+.half-width .image-box {
+	margin-bottom: 100px;
+}
+
+.half-width .right-side-align{
 	margin-left: 50px;
 }
 
@@ -172,28 +159,14 @@ header nav ul li a {
 	background-image: url("../img/about-me.png"); 
 }
 
-
 #about .half-width {
 	width: 600px;
 	margin-left: 40px;
 }
 
-#about h4 {	
-	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	font-weight: 700px;
-	/*color: #1f202b;*/
-	color: #ffffff;
+#about h4, #about p {	
+	color: #1f202b;
 }
-
-#about p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	font-weight: 400px;
-	/*color: #1f202b;*/
-	color: #ffffff;
-}
-
 
 
 /*** CONTACT SECTION ***/
@@ -203,17 +176,12 @@ header nav ul li a {
 	/*border: 1px solid black;*/
 }
 
-#contact h2 {
-	height: 100px;
-
-}
-
 #contact .third-width {
-	/*border: 1px solid black;*/
 	width: 396px;
 	height: 200px;
 	float: left;
 	text-align: center;
+	margin-top: 25px;
 }
 
 #contact address, a {
@@ -244,7 +212,7 @@ header nav ul li a {
 	font-size: 18px;
 	font-weight: 400;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 80px;
 	color: #ffffff;
 
 }
