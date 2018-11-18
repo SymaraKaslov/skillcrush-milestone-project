@@ -1,0 +1,232 @@
+
+
+@ font-face {
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+
+#container {
+	width: 1240px;
+	height: 868px;
+	margin: 0 auto;
+}
+
+#full-width {
+	width: 1200px;
+	height: 868px;
+	margin: 0 auto;
+}
+
+
+/****** Header Section ********/
+
+.half-width {
+	width: 600px;
+	height: 110px;
+	float: left;
+}
+
+
+#half-width-left{
+	margin: 0 20px 0 0;
+}
+
+#half-width-left h1 {
+	font-family: 'montserrat', sans-serif;
+	font-size: 30px;
+	color: #000000;
+	padding: 20px 308px 0 15px;
+	text-transform: uppercase;
+
+}
+
+/***header section - right side: Navigation****/
+
+#half-width-right{
+	margin: 0 0 0 20px;
+
+}
+
+
+#half-width-right nav {
+	padding: 35px 0 80px 25px;
+
+}
+
+
+#half-width-right li {
+	display: inline;
+	margin: 10px;
+}
+
+
+#half-width-right li a {
+	color: #77a466;
+	font-family: 'montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}	
+
+
+/********* MAIN SECTION **********/
+
+
+/*MAIN SECTION 1 */
+
+
+#green-beans img{
+	border-top: solid 4px #77a466;
+	border-bottom:solid 4px #77a466;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#about {
+	height: 175px;
+}
+
+
+#about h3 {
+	color: #77a466;
+	font-family: 'montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 20px 0 10px 15px;
+}
+
+
+#about p {
+	color: #000000;
+	font-family: 'montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 5px 60px 36px 15px; 
+}
+
+
+/* MAIN SECTION 2 */
+
+
+/* third-width dimensions, margins, borders and floating */
+
+.third-width {
+	width: 400px;
+	height: 210px;
+	margin: auto 0;
+	border-top: solid 1px #dedbdc;
+	border-bottom: solid 1px #dedbdc;
+	float: left;
+}
+
+#menu {
+	margin-left: 15px;
+}
+
+#locations {
+	margin-right: 15px;
+}
+
+#reviews {
+		border-right: solid 1px #dedbdc;
+		border-left: solid 1px #dedbdc;
+
+}
+
+/* h styling */
+
+.third-width h4{
+	font-family: 'montserrat', sans-serif;
+	font-size: 12px;
+	padding-top: 20px;
+	text-transform: uppercase;
+
+}
+
+#menu h4 {
+	padding-left: 2px;
+}
+
+#reviews h4 {
+	padding-left: 25px;
+
+}
+
+#locations h4 {
+	padding-left: 25px;
+}
+
+
+/* pararaph styling */
+
+.third-width p{
+	font-family: 'montserrat', sans-serif;
+	font-size: 16px;
+
+}
+
+
+#menu p{
+	padding-left: 2px;
+}
+
+
+#menu p{
+	color: #77a466;
+
+
+}
+
+#reviews p{
+	padding-left: 25px;
+	padding-right: 30px; 
+}
+
+
+#locations p{
+	padding-left: 25px;
+}
+
+
+
+
+
+/***** footer ******/
+
+footer {
+	clear: both;
+	/*padding-top: 10px;*/
+	text-align: center;
+}
+
+footer h3{
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-right: 30px;
+
+}
+
+#script {
+	font-family: 'wisdom script', cursive;
+	font-size: 15px;
+	text-transform: lowercase;
+}
+
+/*two green span tags. one in the header and one in the footer */
+
+.green {
+	color: #77a466;
+
+}
+
+
+
+
+
+
